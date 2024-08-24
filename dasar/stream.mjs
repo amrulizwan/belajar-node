@@ -7,5 +7,5 @@ writer.end;
 
 const reader = fs.createReadStream('stream.log');
 reader.addListener('data', (data) => {
-  console.info(data.toString());
+  console.log(data.toString());
 });

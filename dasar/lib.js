@@ -1,4 +1,4 @@
 const os = require('os');
 
-console.info(os.platform());
+console.log(os.platform());
 console.table(os.cpus());

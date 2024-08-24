@@ -1,4 +1,4 @@
 import os from 'os';
 
-console.info(os.platform());
+console.log(os.platform());
 console.table(os.cpus());

@@ -12,7 +12,7 @@ const request = http.request(
   },
   (response) => {
     response.addListener('data', (data) => {
-      console.info(`Receive data : ${data.toString()}`);
+      console.log(`Receive data : ${data.toString()}`);
     });
   }
 );

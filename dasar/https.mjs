@@ -1,8 +1,8 @@
 import http from 'http';
 
 const server = http.createServer((request, response) => {
-  console.info(request.method);
-  console.info(request.url);
+  console.log(request.method);
+  console.log(request.url);
   if (request.method == 'POST') {
     request.addListener('data', (data) => {
       response.setHeader('Content-Type', 'application/json');

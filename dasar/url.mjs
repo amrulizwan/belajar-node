@@ -4,9 +4,9 @@ const aisadev = new URL('https://aisadev.codes');
 aisadev.pathname = 'kelas';
 aisadev.searchParams.append('status', 'premium');
 
-console.info(aisadev.toString());
-console.info(aisadev.href);
-console.info(aisadev.protocol);
-console.info(aisadev.host);
-console.info(aisadev.pathname);
-console.info(aisadev.searchParams);
+console.log(aisadev.toString());
+console.log(aisadev.href);
+console.log(aisadev.protocol);
+console.log(aisadev.host);
+console.log(aisadev.pathname);
+console.log(aisadev.searchParams);

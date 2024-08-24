@@ -1,8 +1,8 @@
 function sayHello(name) {
   debugger;
-  console.info(`Hello ${name}`);
+  console.log(`Hello ${name}`);
 }
 
 const name = 'Amrul Izwan';
 debugger;
-console.info(sayHello(name));
+console.log(sayHello(name));

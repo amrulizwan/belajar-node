@@ -3,4 +3,4 @@ function samplePromise() {
 }
 
 const name = await samplePromise();
-console.info(name);
+console.log(name);

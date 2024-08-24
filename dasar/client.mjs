@@ -6,7 +6,7 @@ const client = net.createConnection({
 });
 
 client.addListener('data', (data) => {
-  console.info(`${data.toString()}`);
+  console.log(`${data.toString()}`);
 });
 
 setInterval(() => {

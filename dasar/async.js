@@ -4,7 +4,7 @@ function samplePromise() {
 
 async function run() {
   const name = await samplePromise();
-  console.info(name);
+  console.log(name);
 }
 
 run();

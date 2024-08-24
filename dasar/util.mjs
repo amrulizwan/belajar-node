@@ -1,7 +1,7 @@
 import util from 'util';
 const firstName = 'Amrul';
 const lastName = 'Izwan';
-console.info(util.format('Nama : %s %s', firstName, lastName));
+console.log(util.format('Nama : %s %s', firstName, lastName));
 
 const person = [
   {
@@ -14,4 +14,4 @@ const person = [
   },
 ];
 
-console.info(util.format('Person : %j', person[0].firstName));
+console.log(util.format('Person : %j', person[0].firstName));

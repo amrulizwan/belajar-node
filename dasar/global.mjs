@@ -1,3 +1,3 @@
 setTimeout(() => {
-  console.info('Hello Global');
+  console.log('Hello Global');
 }, 2000);

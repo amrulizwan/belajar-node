@@ -7,6 +7,6 @@ const input = readline.createInterface({
 });
 
 input.question('Siapa nama anda? : ', (name) => {
-  console.info(`Hello ${name}`);
+  console.log(`Hello ${name}`);
   input.close();
 });
